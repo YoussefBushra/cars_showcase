@@ -54,7 +54,7 @@ export default async function Home({
         ) : (
           <div className="home__error-container">
             <h2 className="text-black text-xl font-bold">No results found</h2>
-            <p>{allCars}</p>
+            <p>{}</p>
           </div>
         )}
       </div>
